@@ -1,6 +1,6 @@
 import React from "react";
 
-const CollectionCate : React.FC = () => {
+const CollectionCategory : React.FC = () => {
     return(
         <div>
             CollectionCate
@@ -8,4 +8,4 @@ const CollectionCate : React.FC = () => {
     )
 }
 
-export default CollectionCate;
+export default CollectionCategory;

@@ -4,7 +4,7 @@ import CollectionBrand from "@/components/collection/CollectionBrands";
 import CollectionSummary from "@/components/collection/CollectionSummary";
 import CollectionList from "@/components/collection/CollectionList";
 import CollectionSort from "@/components/collection/CollectionSort";
-import CollectionCate from "@/components/collection/RelatedCate";
+import CollectionCategory from "@/components/collection/RelatedCategory";
 
 const BuildingMaterials : React.FC = () =>{
     return(
@@ -14,7 +14,7 @@ const BuildingMaterials : React.FC = () =>{
             <CollectionSummary/>
             <CollectionList/>
             <CollectionSort/>
-            <CollectionCate/>
+            <CollectionCategory/>
         </div>
     )
 }
